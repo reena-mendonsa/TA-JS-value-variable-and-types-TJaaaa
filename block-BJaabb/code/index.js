@@ -133,7 +133,7 @@ if(num1 === num2)
     alert(`True`);
 
 }
-else if(num1 && num2 === 'true' && 'null' && 'undefined')
+else if(isNaN(num1)|| isNaN(num2))
 {
     alert(`Enter valid number!`);
 }
